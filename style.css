@@ -1,0 +1,18 @@
+/* Add any custom styles here */
+.rounded-full {
+    border-radius: 50%;
+}
+
+#image-modal {
+    z-index: 1000;
+}
+
+#modal-image {
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+#prev-image, #next-image {
+    cursor: pointer;
+    user-select: none;
+}
