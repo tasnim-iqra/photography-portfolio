@@ -27,17 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (tab === 'gallery') {
             gallery.classList.remove('hidden');
             hennaGallery.classList.add('hidden');
-            photographyTab.classList.add('border-gray-800','text-gray-800');
-            photographyTab.classList.remove('text-gray-600');
-            hennaTab.classList.remove('border-gray-800','text-gray-800');
-            hennaTab.classList.add('text-gray-600');
+            photographyTab.classList.add('border-blue-500','text-gray-800');
+            photographyTab.classList.remove('text-gray-600', 'border-transparent');
+            hennaTab.classList.remove('border-blue-500','text-gray-800');
+            hennaTab.classList.add('text-gray-600', 'border-transparent');
         } else {
             gallery.classList.add('hidden');
             hennaGallery.classList.remove('hidden');
-            photographyTab.classList.remove('border-gray-800','text-gray-800');
-            photographyTab.classList.add('text-gray-600');
-            hennaTab.classList.add('border-gray-800','text-gray-800');
-            hennaTab.classList.remove('text-gray-600');
+            photographyTab.classList.remove('border-blue-500','text-gray-800');
+            photographyTab.classList.add('text-gray-600', 'border-transparent');
+            hennaTab.classList.add('border-blue-500','text-gray-800');
+            hennaTab.classList.remove('text-gray-600', 'border-transparent');
         }
     };
 
